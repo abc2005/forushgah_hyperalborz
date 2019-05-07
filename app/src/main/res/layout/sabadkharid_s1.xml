@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3E3E3"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/roundads"
+            android:orientation="vertical"
+            android:padding="4dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:weightSum="100" >
+
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="57.02"
+                    android:background="@drawable/edittext"
+                    android:ellipsize="start"
+                    android:ems="10"
+                    android:gravity="right"
+                    android:padding="5dp" >
+                </EditText>
+
+                <TextView
+                    android:id="@+id/tvname"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="35"
+                    android:paddingRight="5dp"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="5dp"
+                android:visibility="gone"
+                android:layout_marginTop="5dp"
+                android:background="#CCCCCC" >
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:visibility="gone"
+                android:weightSum="100" >
+
+                <EditText
+                    android:id="@+id/famil"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="57.02"
+                    android:background="@drawable/edittext"
+                    android:ellipsize="start"
+                    android:ems="10"
+                    android:gravity="right"
+                    android:padding="5dp" >
+                </EditText>
+
+                <TextView
+                    android:id="@+id/tvfamil"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="35"
+                    android:paddingRight="5dp"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#CCCCCC" >
+            </FrameLayout>
+
+             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:weightSum="100" >
+
+                <EditText
+                    android:id="@+id/tel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="57.02"
+                    android:background="@drawable/edittext"
+                    android:inputType="number"
+                    android:ellipsize="start"
+                    android:ems="10"
+                    android:gravity="right"
+                    android:padding="5dp" >
+                </EditText>
+
+                <TextView
+                    android:id="@+id/tvtel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="35"
+                    android:paddingRight="5dp"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#CCCCCC" >
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:weightSum="100" >
+
+                <EditText
+                    android:id="@+id/mobile"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="57.02"
+                    android:background="@drawable/edittext"
+                    android:inputType="number"
+                    android:ellipsize="start"
+                    android:ems="10"
+                    android:gravity="right"
+                    android:padding="5dp" >
+                </EditText>
+
+                <TextView
+                    android:id="@+id/tvmobile"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="35"
+                    android:paddingRight="5dp"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                android:background="#CCCCCC" >
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:visibility="gone"
+                android:weightSum="100" >
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="57.02"
+                    android:background="@drawable/edittext"
+                    android:ellipsize="start"
+                    android:ems="10"
+                    android:gravity="right"
+                    android:padding="5dp" >
+                </EditText>
+
+                <TextView
+                    android:id="@+id/tvemail"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="35"
+                    android:paddingRight="5dp"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#CCCCCC" >
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:visibility="gone"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#CCCCCC" >
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:weightSum="100" >
+
+                <EditText
+                    android:id="@+id/zaman"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="57.02"
+                    android:background="@drawable/edittext"
+                    android:ellipsize="start"
+                    android:ems="10"
+                    android:gravity="left"
+                    android:digits="0123456789-"
+                    android:maxLength="10"
+                    android:padding="5dp" >
+                </EditText>
+
+                <TextView
+                    android:id="@+id/tvzaman"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="35"
+                    android:paddingRight="5dp"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#CCCCCC" >
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:weightSum="100" >
+
+                <EditText
+                    android:id="@+id/saat"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="57.02"
+                    android:background="@drawable/edittext"
+                    android:ellipsize="start"
+                    android:ems="10"
+                    android:maxLength="2"
+                    android:hint="مثال 21"
+                    android:inputType="number"
+                    android:gravity="left"
+                    android:padding="5dp" >
+                </EditText>
+
+                <TextView
+                    android:id="@+id/tvsaat"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="35"
+                    android:paddingRight="5dp"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="right"
+                android:text="به جز پردیسان و مهدیه"
+                android:paddingRight="5dp"
+                android:layout_margin="4dp"
+                android:visibility="gone"
+                android:textSize="15sp" />
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#CCCCCC" >
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100" >
+
+                <EditText
+                    android:id="@+id/address"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="65"
+                    android:background="@drawable/edittext"
+                    android:ellipsize="start"
+                    android:ems="10"
+                    android:gravity="right"
+                    android:minLines="3"
+                    android:padding="5dp"
+
+                    android:singleLine="false" >
+                </EditText>
+
+                <TextView
+                    android:id="@+id/tvaddress"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="35"
+                    android:paddingRight="5dp"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:visibility="gone"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#CCCCCC" >
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:visibility="gone"
+                android:weightSum="100" >
+
+                <EditText
+                    android:id="@+id/codeposti"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="57.02"
+                    android:background="@drawable/edittext"
+                    android:ellipsize="start"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:gravity="right"
+                    android:padding="5dp" >
+                </EditText>
+
+                <TextView
+                    android:id="@+id/tvcodeposti"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="35"
+                    android:paddingRight="5dp"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#CCCCCC" >
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:weightSum="100" >
+
+                <EditText
+                    android:id="@+id/msg"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="57.02"
+                    android:background="@drawable/edittext"
+                    android:ellipsize="start"
+                    android:ems="10"
+                    android:gravity="right"
+                    android:padding="5dp" >
+                </EditText>
+
+                <TextView
+                    android:id="@+id/tvmsg"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="35"
+                    android:paddingRight="5dp"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#CCCCCC" >
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="#4E0E4B"
+                android:gravity="center"
+                android:text="Button"
+                android:textColor="#fff" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ccc"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:id="@+id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="#fff">
+        <TextView
+            android:id="@+id/tvinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:paddingTop="10dp"
+            android:singleLine="true"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/openable"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#64BC68"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/pointer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="12dp"
+            android:layout_marginRight="15dp" />
+
+        <TextView
+            android:id="@+id/tvfactor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:paddingTop="10dp"
+            android:singleLine="true"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/factor"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#fff"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop=".1dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:padding="7dp">
+
+            <TextView
+                android:id="@+id/tvjamkharid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                android:textColor="#6DBF71"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/jamkharid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/toman3"
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                android:textColor="#6DBF71"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/toman3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                android:textColor="#6DBF71"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:padding="7dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tvjamtakhfif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                android:textColor="#F5454E"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/jamtakhfif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/toman2"
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                android:textColor="#F5454E"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/toman2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                android:textColor="#F5454E"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:padding="7dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tvmaliyat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                android:textColor="#6DBF71"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/maliyat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/toman4"
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                android:textColor="#6DBF71"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/toman4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                android:textColor="#6DBF71"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:padding="7dp"
+            android:paddingBottom="0dp">
+
+            <TextView
+                android:id="@+id/tvposts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                android:textColor="#6DBF71"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/post"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/toman5"
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                android:textColor="#6DBF71"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/toman5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                android:textColor="#6DBF71"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tvshivepost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:includeFontPadding="false"
+                android:textSize="16sp" />
+
+            <Spinner
+                android:id="@+id/shivepost"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/edit_text_design"
+                android:includeFontPadding="false"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp">
+
+            <TextView
+                android:id="@+id/tvnahvepardakht"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:includeFontPadding="false"
+                android:textSize="16sp" />
+
+            <Spinner
+                android:id="@+id/nahvepardakht"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/edit_text_design"
+                android:includeFontPadding="false"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:padding="7dp">
+
+            <TextView
+                android:id="@+id/tvjam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                android:textColor="#6DBF71"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/jam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/toman"
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                android:textColor="#6DBF71"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/toman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                android:textColor="#6DBF71"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="12dp"
+                android:background="#4E0E4B"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/btposts"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="12dp"
+                android:background="#4E0E4B"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#fff" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:dividerHeight="5dp"></ListView>
+
+</LinearLayout>

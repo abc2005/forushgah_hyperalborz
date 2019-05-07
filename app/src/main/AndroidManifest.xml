@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.persiandesigners.hyperalborz"
+    android:installLocation="auto"
+
+    android:versionCode="5"
+    android:versionName="1.1.4">
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="23" />
+
+    <!-- - map -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <permission
+        android:name="com.persiandesigners.hyperalborz.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:name="com.persiandesigners.hyperalborz.ParseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAuW0rhT02Wg7gdD0KK_RvbIZvN0xqv_1o" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+
+        <activity android:name="com.persiandesigners.hyperalborz.Cats_digi"></activity>
+        <activity android:name="com.persiandesigners.hyperalborz.Maps"></activity>
+        <!--android:theme="@android:style/Theme.NoTitleBar.Fullscreen" -->
+        <activity
+            android:name="com.persiandesigners.hyperalborz.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashScreenTheme"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.persiandesigners.hyperalborz.Blog">
+
+        </activity>
+        <!--<receiver android:name="com.persiandesigners.hyperalborz.SmsListener">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.provider.Telephony.SMS_RECEIVED" />-->
+            <!--</intent-filter>-->
+        <!--</receiver>-->
+        <activity
+            android:name="com.persiandesigners.hyperalborz.Productha"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"></activity>
+        <activity android:name="com.persiandesigners.hyperalborz.Blog_Details"></activity>
+        <activity
+            android:name="com.persiandesigners.hyperalborz.Profile"
+            android:windowSoftInputMode="stateAlwaysHidden"></activity>
+        <activity
+            android:name="com.persiandesigners.hyperalborz.Order"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="com.persiandesigners.hyperalborz.Vijegi"></activity>
+        <activity
+            android:name="com.persiandesigners.hyperalborz.FistActiivty"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <meta-data
+                android:name="cheshmakPush"
+                android:value="openActivityOnPush" />
+            <intent-filter>
+                <data
+                    android:host="returnApp"
+                    android:pathPattern=".*"
+                    android:scheme="myapp"></data>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.persiandesigners.hyperalborz.Register"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize"></activity>
+        <activity
+            android:name="com.persiandesigners.hyperalborz.Login"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden"></activity>
+        <activity
+            android:name="com.persiandesigners.hyperalborz.NoInternet"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.persiandesigners.hyperalborz.Detailss"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.persiandesigners.hyperalborz.Products"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.persiandesigners.hyperalborz.Cats"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.persiandesigners.hyperalborz.Page"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.persiandesigners.hyperalborz.SabadKharid_s1"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"></activity>
+        <activity
+            android:name="com.persiandesigners.hyperalborz.SabadKharid_s2"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"></activity>
+        <activity
+            android:name="com.persiandesigners.hyperalborz.Sabad_Takmil"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"></activity>
+        <activity
+            android:name="com.persiandesigners.hyperalborz.Contactus"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.persiandesigners.hyperalborz.PageTextView"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.persiandesigners.hyperalborz.Comments"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.persiandesigners.hyperalborz.Search"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"></activity>
+
+        <activity
+            android:name="com.persiandesigners.hyperalborz.ForgetPass"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize"></activity>
+        <activity
+            android:name="com.persiandesigners.hyperalborz.Subcats"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"></activity>
+    </application>
+
+</manifest>
